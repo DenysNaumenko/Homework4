@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+        <style>
+            table {
+            table-layout: fixed;
+            border-collapse: separate;
+            border: 1px solid rgba(14, 2, 14, 0.454);
+            }
+            th,
+            td {
+            width: 290px;
+            height: 60px;
+            border: 1px solid #000;
+            text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        </header>
+        <main>
+            <table>
+                <tr>
+                    <td colspan="3" style="background: rgb(4, 138, 206);" >My first table</td>
+                </tr>
+                <tr>
+                    <td style="background: rgb(4, 138, 206);" >First cell</td>
+                    <td style="background: rgb(4, 138, 206);">Second cell</td>
+                    <td  rowspan="3" style="background: rgb(245, 241, 5);">6 cell merged together</td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="background: rgb(245, 241, 5);">2 cells merged into one</td>
+                </tr>
+                <tr>
+                    <td style="background: rgb(245, 241, 5);">1 st cell 3rd row</td>
+                    <td style="background: rgb(245, 241, 5);">2 st cell 3rd row</td>
+                </tr>
+                <tr>
+                    <td style="background: rgb(245, 241, 5);" colspan="3">Do you like tables?</td>
+                </tr>
+            </table>
+        </main>
+        <footer></footer>
+    </body>
+</html>
